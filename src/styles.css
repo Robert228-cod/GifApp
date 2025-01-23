@@ -59,7 +59,23 @@
   }
   
   .card img {
-    width: 100%;
+    width: 400px;
+    height: 400px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+  }
+
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    flex: 1;
   }
 
 

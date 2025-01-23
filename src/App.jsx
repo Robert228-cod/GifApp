@@ -11,7 +11,7 @@ export const App = () => {
 
   const onAddCategory = (newCategory) => {
     if(categorias.includes(newCategory)) return
-    const newList = [newCategory,...categorias]
+    const newList = [newCategory]
     setCategorias(newList)
   }
 
@@ -27,7 +27,6 @@ export const App = () => {
       <AddCategory 
         onNewValue = {onAddCategory} 
       />
-
       {
         categorias.map( (text,index) => 
           <GifGrid 
@@ -38,7 +37,10 @@ export const App = () => {
           />
         ) 
       }
-
+      <footer>
+        Version 1.0.0
+      </footer>
+      
     </>
   )
 }

@@ -36,7 +36,7 @@ export const AddCategory = ( {onNewValue} ) => {
                 style={ {fontSize: 20} }
                 onClick={handleSubmit}
             > Buscar </button>
-            { isEmpty === true && ( <h2 style={ {color: "orange"} }> Por favor, escriba lo que desea buscar </h2> ) }
+            { isEmpty === true && ( <h2 style={ {color: "orange"}}> Por favor, escriba lo que desea buscar </h2> ) }
         </form>
     )
 }

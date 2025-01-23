@@ -26,7 +26,7 @@ export const GifGrid = ({categorias, idx, reduceCategory}) => {
                 }
             </div>
             <button
-            className="boton"
+                className="boton"
                 onClick={reduce}
             > Eliminar </button>
         </>
